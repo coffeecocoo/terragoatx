@@ -10,22 +10,22 @@ resource "aws_rds_cluster" "pass1" {
 
 resource "aws_rds_cluster" "pass2" {
   allocated_storage       = 10
-  backup_retention_period = 15
+  backup_retention_period = 20
 }
 
 resource "aws_rds_cluster" "pass3" {
   allocated_storage       = 10
-  backup_retention_period = 15
+  backup_retention_period = 20
 }
 
 resource "aws_rds_cluster" "pass4" {
   allocated_storage       = 10
-  backup_retention_period = 15
+  backup_retention_period = 20
 }
 
 resource "aws_rds_cluster" "pass5" {
   allocated_storage       = 10
-  backup_retention_period = 15
+  backup_retention_period = 20
 }
 
 resource "aws_rds_cluster" "pass6" {
